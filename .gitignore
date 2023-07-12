@@ -6,6 +6,9 @@
 build/
 DerivedData/
 
+## OS X Finder
+.DS_Store
+
 ## Various settings
 *.pbxuser
 !default.pbxuser
@@ -20,7 +23,8 @@ xcuserdata/
 ## Other
 *.moved-aside
 *.xcuserstate
-.DS_Store
+*.xccheckout
+*.xcscmblueprint
 
 ## Obj-C/Swift specific
 *.hmap
@@ -64,3 +68,7 @@ fastlane/report.xml
 fastlane/Preview.html
 fastlane/screenshots
 fastlane/test_output
+
+# Swift Package Manager
+.build/
+
